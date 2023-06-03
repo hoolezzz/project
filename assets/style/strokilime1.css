@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Mon;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Lac;
+    src: url("../fonts/Lacquer-Regular.ttf");
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+    font-family: Mon;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header_con {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    padding: 70px 35px;
+}
+
+.basket {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+
+}
+
+.main_header {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+.header_logo>h1{
+color: #4D9BC8;
+font-family: Lac;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 9px;
+text-align: center;
+}
+
+.header_logo>h1>span {
+    font-size: 95px;
+line-height: 154px;
+}
+
+.navigation {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: center;
+}
+
+.navigation>a {
+    display: block;
+    margin: 12px 23px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+}
